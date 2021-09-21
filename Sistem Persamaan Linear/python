@@ -4,7 +4,7 @@ def gssdrjn(a,b):
   a = np.array(a, float)
   b = np.array(b, float)
   n = len(b)
-  X,A = gssdrjn(a,b)
+
   
   
   #loop
