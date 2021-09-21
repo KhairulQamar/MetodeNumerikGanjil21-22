@@ -1,10 +1,9 @@
-
 import numpy as np
-def gssdrjn(a,b):
+def jkiXA(a,b):
   a = np.array(a, float)
   b = np.array(b, float)
   n = len(b)
-
+ 
   
   
   #loop
@@ -31,11 +30,11 @@ def gssdrjn(a,b):
               b[i] -= factor * b[k] 
               return b,a
               
-a = [[0,2,0,1],[2,2,3,2],[4,-3,0,1],[6,1,-6,-5]]
-b = [0,-2,-7,6]
-X,A = gssdrjn(a,b)
+a = [[1,1,1],[1,2,-1],[2,1,2]
+b = [6,2,10]
+X,A = (a,b)
 
 print("solusi :")
-print(x)
+print(X)
 print("tranformasi (a):")
 print(A)
